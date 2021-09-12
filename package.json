@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Relvel backend to oyo-clone",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=prod node app",
+    "dev": "nodemon app"
+  },
+  "author": "Jarman",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
